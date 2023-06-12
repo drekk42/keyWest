@@ -1,0 +1,49 @@
+.pageContainer {
+    background-color:burlywood;
+    height: 719px;
+}
+header {
+    height: 78px;
+    background-color: burlywood;
+    border: 5px outset #705401;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftHeader {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "lucida handwriting", cursive;
+    font-size: xxx-large;
+}
+.palmTree {
+    height: 90%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.bookNowButton {
+    height: 73px;
+    width: 200px;
+    background-color: #705401;
+    color: white;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-right: 3px;
+}
+.containerText {
+    display: flex;
+    inline-size: 900px;
+    overflow-wrap: break-word;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 182px;
+    margin-right: 182px;
+    margin-top: 80px;
+    font-weight: bolder;
+    color:black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
